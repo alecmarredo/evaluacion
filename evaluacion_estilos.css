@@ -1,0 +1,106 @@
+
+.centro{ /*Centra todo el recuadro*/
+    display: flex;
+    justify-content: center;
+}
+
+span{ /*Da estilo a todas las etiquetas span*/
+    background-color: rgb(52, 174, 250);
+    border-radius: 5px;
+    color: white;
+}
+
+h2{ /*Cambia a color negro todos los "h2"*/
+    color: black
+}
+
+.contenedor{ /*Da estilo a todo el recuadro en general*/
+    width: 500px;
+    border: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px;
+    position: relative;
+}
+
+.letras_verde{
+    color: rgb(72, 168, 72);
+}
+
+h3{ /*Cambia a color negro todos los "h3"*/
+    color: rgb(56, 56, 115);
+}
+
+.logos{ /*Da estilo y diseño a los logos*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.centro_2{ 
+    display: flex;
+    justify-content: baseline;
+}
+
+.letras-a{
+    color: white;
+    margin-right: 30px;
+    margin: 0%;
+}
+ 
+.titulo{ /*Da estilo a el titulo en generak*/
+    position: absolute;
+    display: flex;
+    top: 170px;
+    width: 500px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a{ /*Da estilo a todas las etiquetas "a"*/
+    text-decoration: none;
+    color: white;
+}
+
+h2{ /*Cambia a color negro todos los "h2"*/
+    color: white;
+    margin: 0px;
+}
+
+.img-verificado{
+    align-items: center;
+    justify-content: space-around;
+}
+
+p{ /*Da estilo a todas las etiquetas "p"*/
+    margin: 0px;
+}
+
+.contactar{
+    display: flex;
+    position: fixed;
+    border: 1px;
+    left: 25px;
+    bottom: 30px;
+    border-radius: 10px;
+    background-color: rgb(52, 174, 250);
+}
+
+.boton-correo{
+    display: flex;
+    border-radius: 10px;
+    width: auto;
+    color: white;
+    
+}
+
+.texto-contactar{
+    margin: 8px;
+}
+
+
+
